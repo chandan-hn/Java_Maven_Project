@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<p style="background-image: url('img_girl.jpg');">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible"
 		content="IE=edge">
@@ -15,14 +16,14 @@
 		/* Styling the Body element 
 		i.e. Color, Font, Alignment */
 		body {
-			background-color: #05c46b;
+			background-color: #ADD8E6;
 			font-family: Verdana;
 			text-align: center;
 		}
 
 		/* Styling the Form (Color, Padding, Shadow) */
 		form {
-			background-color: #fff;
+			background-color: #ADD8E6;
 			max-width: 500px;
 			margin: 50px auto;
 			padding: 30px 20px;
@@ -78,7 +79,7 @@
 </head>
 
 <body>
-	<h1>GeeksforGeeks Survey Form</h1>
+	<h1> ***ITD Survey Form*** </h1>
 
 	<!-- Create Form -->
 	<form id="form">
@@ -132,7 +133,7 @@
 
 		<div class="form-control">
 			<label>
-				Would you recommend GeeksforGeeks
+				Would you recommend ITD
 				to a friend?
 			</label>
 

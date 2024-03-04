@@ -78,7 +78,7 @@
 </head>
 
 <body>
-	<h1> ***ITD Survey Form*** </h1>
+	<h1> **ITD Survey Form** </h1>
 			<!--Image of the Tribute Person-->
 		<img src="itd.png"
 		     id="image"

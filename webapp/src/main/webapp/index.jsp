@@ -79,11 +79,12 @@
 
 <body>
 	<h1> ***ITD Survey Form*** </h1>
-	<!--Image of the Tribute Person-->
-            <img src="itd.png"
-                 id="image"
-                 alt="Error Loading Image">
-            <small id="caption">
+			<!--Image of the Tribute Person-->
+		<img src="itd.png"
+		     id="image"
+		     alt="Error Loading Image" style="max-width: 100px; max-height: 100px;">
+		<small id="caption">
+
 
 	<!-- Create Form -->
 	<form id="form">

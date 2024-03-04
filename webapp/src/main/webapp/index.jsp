@@ -19,7 +19,6 @@
 			font-family: Verdana;
 			text-align: center;
 		}
-	<p style="background-image: url('itd.png');">
 
 		/* Styling the Form (Color, Padding, Shadow) */
 		form {
@@ -80,6 +79,11 @@
 
 <body>
 	<h1> ***ITD Survey Form*** </h1>
+	<!--Image of the Tribute Person-->
+            <img src="itd.png"
+                 id="image"
+                 alt="Error Loading Image">
+            <small id="caption">
 
 	<!-- Create Form -->
 	<form id="form">

@@ -1,44 +1,149 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Simple Survey Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
-        <h1>Feedback Survey Form</h1>
-        <form id="survey-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0;
+}
 
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" min="1" max="150">
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-            <label for="feedback-type">Type of Feedback:</label>
-            <select id="feedback-type" name="feedback-type">
-                <option value="positive">Positive</option>
-                <option value="negative">Negative</option>
-                <option value="suggestion">Suggestion</option>
-            </select>
+header h1 {
+    margin-left: 20px;
+}
 
-            <fieldset>
-                <legend>Services Used:</legend>
-                <input type="checkbox" id="service1" name="services" value="service1">
-                <label for="service1">Service 1</label><br>
-                <input type="checkbox" id="service2" name="services" value="service2">
-                <label for="service2">Service 2</label><br>
-                <input type="checkbox" id="service3" name="services" value="service3">
-                <label for="service3">Service 3</label>
-            </fieldset>
+nav ul {
+    list-style: none;
+    display: flex;
+}
 
-            <label for="comments">Additional Comments:</label>
-            <textarea id="comments" name="comments" rows="4"></textarea>
+nav ul li {
+    margin-right: 20px;
+}
 
-            <button type="submit">Submit Feedback</button>
-        </form>
-    </main>
-</body>
-</html>
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url('https://i.imgur.com/oXrLmSl.jpg'); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #d64b2a;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Existing CSS remains the same */
+
+/* Styling for Services Section */
+#services {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#services h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#services ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#services li {
+    margin-bottom: 10px;
+}
+
+/* Styling for About Section */
+#about {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: left;
+}
+
+#about h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+/* Styling for Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#contact h2 {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Hover Effects */
+#services li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+    #services, #about, #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}

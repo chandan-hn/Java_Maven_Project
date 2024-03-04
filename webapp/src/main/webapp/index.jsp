@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<p style="background-image: url('img_girl.jpg');">
+<p style="background-image: url('itd.png');">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible"
 		content="IE=edge">

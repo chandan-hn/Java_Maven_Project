@@ -15,14 +15,14 @@
 		/* Styling the Body element 
 		i.e. Color, Font, Alignment */
 		body {
-			background-color: #ADD8E6;
+			background-color: #FFFFFF;
 			font-family: Verdana;
 			text-align: center;
 		}
 
 		/* Styling the Form (Color, Padding, Shadow) */
 		form {
-			background-color: #ADD8E6;
+			background-color: #FFFFFF;
 			max-width: 500px;
 			margin: 50px auto;
 			padding: 30px 20px;
@@ -82,7 +82,7 @@
 			<!--Image of the Tribute Person-->
 		<img src="itd.png"
 		     id="image"
-		     alt="Error Loading Image" style="max-width: 100px; max-height: 100px;">
+		     alt="Error Loading Image" style="max-width: 250px; max-height: 250px;">
 		<small id="caption">
 
 

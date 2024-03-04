@@ -78,7 +78,7 @@
 </head>
 
 <body>
-	<h1> ------- SURVEY FORM ------- </h1>
+	<h1> ------- ITD DEVOPS SURVEY FORM ------- </h1>
 
 	<!-- Create Form -->
 	<form id="form">
@@ -132,7 +132,8 @@
 
 		<div class="form-control">
 			<label>
-				Would you recommend GeeksforGeeks
+				Would you recommend ITD Devops cource
+
 				to a friend?
 			</label>
 

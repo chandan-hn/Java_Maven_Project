@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-<p style="background-image: url('itd.png');">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible"
 		content="IE=edge">
@@ -20,6 +19,7 @@
 			font-family: Verdana;
 			text-align: center;
 		}
+	<p style="background-image: url('itd.png');">
 
 		/* Styling the Form (Color, Padding, Shadow) */
 		form {

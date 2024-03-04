@@ -82,7 +82,7 @@
 			<!--Image of the Tribute Person-->
 		<img src="itd.png"
 		     id="image"
-		     alt="Error Loading Image" style="max-width: 250px; max-height: 250px;">
+		     alt="Error Loading Image" style="max-width: 300px; max-height: 300px;">
 		<small id="caption">
 
 
